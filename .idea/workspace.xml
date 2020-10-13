@@ -6,11 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a89232-cb49-4d69-94c9-eb07d19ddbf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/RatingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dev_homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dev_homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DBController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DBController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/MovieFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/MovieFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <list id="5f6a6ce1-a1bb-49f7-816e-6f92c14cc61f" name="new objects" comment="" />
@@ -99,6 +102,15 @@
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iovjXOClD7LOvud90c57mbJkcj" />
@@ -176,14 +188,18 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="796" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1602587284479" />
+    <state x="838" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602611104562">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="838" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.825@0.23.1440.825" timestamp="1602611104562" />
     <state x="378" y="23" key="CommitChangelistDialog2" timestamp="1602604539657">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="378" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1602604539657" />
-    <state x="688" y="204" key="NewPhpClassDialog" timestamp="1602587405996">
+    <state x="688" y="204" key="NewPhpClassDialog" timestamp="1602615445847">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="688" y="204" key="NewPhpClassDialog/0.23.1440.825@0.23.1440.825" timestamp="1602587405996" />
+    <state x="688" y="204" key="NewPhpClassDialog/0.23.1440.825@0.23.1440.825" timestamp="1602615445847" />
     <state x="760" y="402" key="NewPhpFileDialog" timestamp="1602587398121">
       <screen x="0" y="23" width="1440" height="825" />
     </state>

@@ -27,7 +27,7 @@ class DBController extends AbstractController
     /**
      * @Route("/movies/create")
      */
-    public function createAction(EntityManagerInterface $entityManager)
+    /*public function createAction(EntityManagerInterface $entityManager)
     {
         $genre1 = new Genre();
         $genre1->setGenre('Comedy');
@@ -61,24 +61,24 @@ class DBController extends AbstractController
     /**
      * @Route("/movies/update")
      */
-    public function updateAction(EntityManagerInterface $entityManager)
+    /*public function updateAction(EntityManagerInterface $entityManager)
     {
         $movie = $entityManager->getRepository('App:Movie')->find(1);
         $movie->setTitle('new title');
         $entityManager->flush();
 
         return new Response(sprintf("Title: %s", $movie->getTitle()));
-    }
+    }*/
 
-    /**
+    /*/**
      * @Route("/movies/delete")
      */
-    public function deleteAction(EntityManagerInterface $entityManager)
+    /*public function deleteAction(EntityManagerInterface $entityManager)
     {
         $director = $entityManager->getRepository('App:Director')->find(13);
         $entityManager->remove($director);
         $entityManager->flush();
 
         return new Response(sprintf("Deleted", $director->getDirector()));
-    }
+    }*/
 }
