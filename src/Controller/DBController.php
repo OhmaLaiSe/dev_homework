@@ -4,16 +4,18 @@
 namespace App\Controller;
 
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Twig\Environment;
 
-class DBController
+class DBController extends AbstractController
 {
     /**
      * @Route("/")
      */
-    public function homepage()
+    public function homepage(Environment $twigEnvironment)
     {
-        return new Response("It's alive!!!");
+        return $this->render('movie/homepage.html.twig');
     }
 }
