@@ -6,16 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a89232-cb49-4d69-94c9-eb07d19ddbf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/movie/_rate2_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movie/_rate3_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movie/_rate4_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movie/_rate5_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MovieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/MovieFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/MovieFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/_rate_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/_rate1_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/homepage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/_rate1_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/_rate1_form.html.twig" afterDir="false" />
     </list>
     <list id="5f6a6ce1-a1bb-49f7-816e-6f92c14cc61f" name="new objects" comment="" />
     <list id="d15219b4-8680-48d2-ac50-eb72c20e32e8" name="Revert &quot;new version&quot;" comment="Revert &quot;new version&quot;&#10;&#10;This reverts commit c1ae77ab" />
@@ -141,7 +136,10 @@
       <updated>1602586895170</updated>
       <workItem from="1602586896313" duration="1388000" />
       <workItem from="1602588409392" duration="4154000" />
-      <workItem from="1602635627287" duration="10447000" />
+      <workItem from="1602635627287" duration="10713000" />
+      <workItem from="1602647534166" duration="191000" />
+      <workItem from="1602648068652" duration="374000" />
+      <workItem from="1602648726977" duration="3821000" />
     </task>
     <servers />
   </component>
@@ -224,17 +222,18 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="489" y="209" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.825@0.23.1440.825" timestamp="1602637875962" />
-    <state x="600" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1602644434824">
+    <state x="600" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1602650523502">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="600" y="167" width="670" height="738" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602635751745" />
-    <state x="600" y="176" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1602644434824" />
+    <state x="600" y="176" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1602650523502" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/templates/movie/_rate1_form.html.twig</url>
+          <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

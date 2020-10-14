@@ -36,57 +36,15 @@ class MovieController extends AbstractController
     }
 
     /**
-     * @Route("/{id}", name="movie_rate1")
+     * @Route("/{id}/rate/{avgRating}", name="movie_rate1")
      */
-    public function rate1(Movie $movie): Response
+    public function rate1(Movie $movie, int $avgRating): Response
     {
-        $movie->setAvgRating(1);
+        $movie->setAvgRating($avgRating);
         $this->getDoctrine()->getManager()->persist($movie);
         $this->getDoctrine()->getManager()->flush();
         return $this->redirectToRoute('movie_index');
     }
 
-    /**
-     * @Route("/{id}", name="movie_rate2")
-     */
-    public function rate2(Movie $movie): Response
-    {
-        $movie->setAvgRating(2);
-        $this->getDoctrine()->getManager()->persist($movie);
-        $this->getDoctrine()->getManager()->flush();
-        return $this->redirectToRoute('movie_index');
-    }
 
-    /**
-     * @Route("/{id}", name="movie_rate3")
-     */
-    public function rate3(Movie $movie): Response
-    {
-        $movie->setAvgRating(3);
-        $this->getDoctrine()->getManager()->persist($movie);
-        $this->getDoctrine()->getManager()->flush();
-        return $this->redirectToRoute('movie_index');
-    }
-
-    /**
-     * @Route("/{id}", name="movie_rate4")
-     */
-    public function rate4(Movie $movie): Response
-    {
-        $movie->setAvgRating(4);
-        $this->getDoctrine()->getManager()->persist($movie);
-        $this->getDoctrine()->getManager()->flush();
-        return $this->redirectToRoute('movie_index');
-    }
-
-    /**
-     * @Route("/{id}", name="movie_rate5")
-     */
-    public function rate5(Movie $movie): Response
-    {
-        $movie->setAvgRating(5);
-        $this->getDoctrine()->getManager()->persist($movie);
-        $this->getDoctrine()->getManager()->flush();
-        return $this->redirectToRoute('movie_index');
-    }
 }
