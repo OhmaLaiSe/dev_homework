@@ -40,13 +40,10 @@ class MovieFixtures extends Fixture
 
         $movie1 = new Movie();
         $movie1->setTitle('Beetlejuice');
-        $movie1->setAvgRating(5);
+        $movie1->setAvgRating(null);
         $movie1->setDirector($director1);
         $movie1->addGenre($genre1);
         $movie1->addGenre($genre2);
-        /*$genre1->addMovie($movie1);
-        $genre2->addMovie($movie1);
-        $director1->addMovie($movie1);*/
 
         $movie2 = new Movie();
         $movie2->setTitle('Total Recall');
@@ -60,7 +57,7 @@ class MovieFixtures extends Fixture
         $movie3->setTitle('There Will Be Blood');
         $movie3->setAvgRating(null);
         $movie3->setDirector($director3);
-        $movie2->addGenre($genre6);
+        $movie3->addGenre($genre6);
 
         $movie4 = new Movie();
         $movie4->setTitle('Lost in Translation');
