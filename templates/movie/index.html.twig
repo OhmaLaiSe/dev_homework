@@ -10,7 +10,8 @@
             <tr>
                 <th>Id</th>
                 <th>Title</th>
-                <th>Rating</th>
+                <th>Director</th>
+                <th>Avg Rating</th>
                 <th>Genre</th>
             </tr>
         </thead>
@@ -21,10 +22,12 @@
                 <td>{{ movie.id }}</td>
                 <td>{{ movie.title }}</td>
                 <td>{{ movie.director.director }}</td>
-                <td>{{ movie.rating }}</td>
-                <td>{{ movie.genre.values(1), 2, 3]|join }}</td>
+                <td>{{ movie.avgRating }}</td>
+                <td>{% for item in movie.genre %}
+                        {{ item.getGenre() }}
+                    {% endfor %}</td>
                 <td>
-                    <a href="{{ path('movie_show', {'id': movie.id}) }}">show</a>
+                    <a href="{{ path('movie_show', {'id': movie.id}) }}">Rate (1-5)</a>
 
                 </td>
             </tr>
@@ -36,5 +39,4 @@
         </tbody>
     </table>
 
-    <a href="{{ path('movie_new') }}">Create new</a>
 {% endblock %}
