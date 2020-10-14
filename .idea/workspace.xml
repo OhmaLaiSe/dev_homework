@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a89232-cb49-4d69-94c9-eb07d19ddbf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/movie/rate.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RatingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RatingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/_rate_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/_rate_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/rate.html.twig" beforeDir="false" />
     </list>
     <list id="5f6a6ce1-a1bb-49f7-816e-6f92c14cc61f" name="new objects" comment="" />
     <list id="d15219b4-8680-48d2-ac50-eb72c20e32e8" name="Revert &quot;new version&quot;" comment="Revert &quot;new version&quot;&#10;&#10;This reverts commit c1ae77ab" />
@@ -128,6 +130,7 @@
       <updated>1602586895170</updated>
       <workItem from="1602586896313" duration="1388000" />
       <workItem from="1602588409392" duration="4154000" />
+      <workItem from="1602635627287" duration="2436000" />
     </task>
     <servers />
   </component>
@@ -181,9 +184,14 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="796" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1602587284479" />
-    <state x="838" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602611104562">
+    <state x="513" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602635670370">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state x="513" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.825@0.23.1440.825" timestamp="1602635670370" />
+    <state x="838" y="164" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602635803795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="838" y="164" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1602635803795" />
     <state x="838" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.825@0.23.1440.825" timestamp="1602611104562" />
     <state x="378" y="23" key="CommitChangelistDialog2" timestamp="1602604539657">
       <screen x="0" y="23" width="1440" height="825" />
@@ -201,9 +209,14 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="322" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1602587160418" />
-    <state x="600" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1602596108542">
+    <state x="489" y="209" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602637875962">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
+    <state x="489" y="209" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.825@0.23.1440.825" timestamp="1602637875962" />
+    <state x="600" y="167" width="670" height="738" key="search.everywhere.popup" timestamp="1602635751745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="600" y="167" width="670" height="738" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602635751745" />
     <state x="600" y="176" width="670" height="676" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1602596108542" />
   </component>
 </project>
