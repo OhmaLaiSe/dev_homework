@@ -26,29 +26,6 @@ class MovieController extends AbstractController
     }
 
     /**
-     * @Route("/new", name="movie_new", methods={"GET","POST"})
-     */
-    public function new(Request $request): Response
-    {
-        $movie = new Movie();
-        $form = $this->createForm(MovieType::class, $movie);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($movie);
-            $entityManager->flush();
-
-            return $this->redirectToRoute('movie_index');
-        }
-
-        return $this->render('movie/new.html.twig', [
-            'movie' => $movie,
-            'form' => $form->createView(),
-        ]);
-    }
-
-    /**
      * @Route("/{id}", name="movie_show", methods={"GET"})
      */
     public function show(Movie $movie): Response
@@ -59,36 +36,52 @@ class MovieController extends AbstractController
     }
 
     /**
-     * @Route("/{id}/edit", name="movie_edit", methods={"GET","POST"})
+     * @Route("/{id}", name="movie_rate1", methods={"POST"})
      */
-    public function edit(Request $request, Movie $movie): Response
+    public function rate1(Movie $movie): Response
     {
-        $form = $this->createForm(MovieType::class, $movie);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
+            $movie->setAvgRating(1);
             $this->getDoctrine()->getManager()->flush();
-
             return $this->redirectToRoute('movie_index');
-        }
-
-        return $this->render('movie/edit.html.twig', [
-            'movie' => $movie,
-            'form' => $form->createView(),
-        ]);
     }
 
     /**
-     * @Route("/{id}", name="movie_delete", methods={"DELETE"})
+     * @Route("/{id}", name="movie_rate2", methods={"POST"})
      */
-    public function delete(Request $request, Movie $movie): Response
+    public function rate2(Movie $movie): Response
     {
-        if ($this->isCsrfTokenValid('delete'.$movie->getId(), $request->request->get('_token'))) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->remove($movie);
-            $entityManager->flush();
-        }
+        $movie->setAvgRating(2);
+        $this->getDoctrine()->getManager()->flush();
+        return $this->redirectToRoute('movie_index');
+    }
 
+    /**
+     * @Route("/{id}", name="movie_rate3", methods={"POST"})
+     */
+    public function rate3(Movie $movie): Response
+    {
+        $movie->setAvgRating(3);
+        $this->getDoctrine()->getManager()->flush();
+        return $this->redirectToRoute('movie_index');
+    }
+
+    /**
+     * @Route("/{id}", name="movie_rate4", methods={"POST"})
+     */
+    public function rate4(Movie $movie): Response
+    {
+        $movie->setAvgRating(4);
+        $this->getDoctrine()->getManager()->flush();
+        return $this->redirectToRoute('movie_index');
+    }
+
+    /**
+     * @Route("/{id}", name="movie_rate5", methods={"POST"})
+     */
+    public function rate5(Movie $movie): Response
+    {
+        $movie->setAvgRating(5);
+        $this->getDoctrine()->getManager()->flush();
         return $this->redirectToRoute('movie_index');
     }
 }

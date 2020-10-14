@@ -40,15 +40,9 @@ class Movie
      */
     private $genre;
 
-    /**
-     * @ORM\OneToMany(targetEntity=Rating::class, mappedBy="movie")
-     */
-    private $ratings;
-
     public function __construct()
     {
         $this->genre = new ArrayCollection();
-        $this->ratings = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -113,37 +107,6 @@ class Movie
     {
         if ($this->genre->contains($genre)) {
             $this->genre->removeElement($genre);
-        }
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Rating[]
-     */
-    public function getRatings(): Collection
-    {
-        return $this->ratings;
-    }
-
-    public function addRating(Rating $rating): self
-    {
-        if (!$this->ratings->contains($rating)) {
-            $this->ratings[] = $rating;
-            $rating->setMovie($this);
-        }
-
-        return $this;
-    }
-
-    public function removeRating(Rating $rating): self
-    {
-        if ($this->ratings->contains($rating)) {
-            $this->ratings->removeElement($rating);
-            // set the owning side to null (unless already changed)
-            if ($rating->getMovie() === $this) {
-                $rating->setMovie(null);
-            }
         }
 
         return $this;

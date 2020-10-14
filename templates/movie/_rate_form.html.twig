@@ -1,5 +1,29 @@
-<form method="post" action="{{ path('rating_new', {'id': movie.id}) }}" onsubmit="return confirm('Are you sure you want to delete this item?');">
-    <input type="hidden" name="_method" value="INSERT">
-    <input type="hidden" name="_token" value="{{ csrf_token('new' ~ movie.ratings.add(1)) }}">
+<form method="post" action="{{ path('movie_rate1', {'id': movie.id }) }}" onsubmit="return confirm('Are you sure you want to add a rating?');">
+    <input type="hidden" name="_method" value="POST">
+    <input type="hidden" name="_token1" value="{{ csrf_token('post' ~ movie.avgRating) }}">
+    <button class="btn">1</button>
+</form>
+
+<form method="post" action="{{ path('movie_rate1', {'id': movie.id }) }}" onsubmit="return confirm('Are you sure you want to add a rating?');">
+    <input type="hidden" name="_method" value="POST">
+    <input type="hidden" name="_token1" value="{{ csrf_token('post' ~ movie.avgRating) }}">
+    <button class="btn">1</button>
+</form>
+
+<form method="post" action="{{ path('movie_rate1', {'id': movie.id }) }}" onsubmit="return confirm('Are you sure you want to add a rating?');">
+    <input type="hidden" name="_method" value="POST">
+    <input type="hidden" name="_token1" value="{{ csrf_token('post' ~ movie.avgRating) }}">
+    <button class="btn">1</button>
+</form>
+
+<form method="post" action="{{ path('movie_rate1', {'id': movie.id }) }}" onsubmit="return confirm('Are you sure you want to add a rating?');">
+    <input type="hidden" name="_method" value="POST">
+    <input type="hidden" name="_token1" value="{{ csrf_token('post' ~ movie.avgRating) }}">
+    <button class="btn">1</button>
+</form>
+
+<form method="post" action="{{ path('movie_rate1', {'id': movie.id }) }}" onsubmit="return confirm('Are you sure you want to add a rating?');">
+    <input type="hidden" name="_method" value="POST">
+    <input type="hidden" name="_token1" value="{{ csrf_token('post' ~ movie.avgRating) }}">
     <button class="btn">1</button>
 </form>

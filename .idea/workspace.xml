@@ -6,10 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a89232-cb49-4d69-94c9-eb07d19ddbf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/movie/_rate1_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/movie/_rate2_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/movie/_rate3_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/movie/_rate4_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/movie/_rate5_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RatingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RatingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/_rate_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/_rate_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/rate.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MovieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RatingController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Rating.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/MovieType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MovieType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RatingRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/_rate_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/show.html.twig" afterDir="false" />
     </list>
     <list id="5f6a6ce1-a1bb-49f7-816e-6f92c14cc61f" name="new objects" comment="" />
     <list id="d15219b4-8680-48d2-ac50-eb72c20e32e8" name="Revert &quot;new version&quot;" comment="Revert &quot;new version&quot;&#10;&#10;This reverts commit c1ae77ab" />
@@ -116,9 +126,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/movie" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/movie" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,7 +145,7 @@
       <updated>1602586895170</updated>
       <workItem from="1602586896313" duration="1388000" />
       <workItem from="1602588409392" duration="4154000" />
-      <workItem from="1602635627287" duration="2436000" />
+      <workItem from="1602635627287" duration="7297000" />
     </task>
     <servers />
   </component>
@@ -197,10 +212,10 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="378" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1602604539657" />
-    <state x="688" y="204" key="NewPhpClassDialog" timestamp="1602615445847">
+    <state x="688" y="204" key="NewPhpClassDialog" timestamp="1602638699951">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="688" y="204" key="NewPhpClassDialog/0.23.1440.825@0.23.1440.825" timestamp="1602615445847" />
+    <state x="688" y="204" key="NewPhpClassDialog/0.23.1440.825@0.23.1440.825" timestamp="1602638699951" />
     <state x="760" y="402" key="NewPhpFileDialog" timestamp="1602587398121">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
