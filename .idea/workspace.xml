@@ -7,10 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29a89232-cb49-4d69-94c9-eb07d19ddbf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MovieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movie/_rate1_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/_rate1_form.html.twig" afterDir="false" />
     </list>
     <list id="5f6a6ce1-a1bb-49f7-816e-6f92c14cc61f" name="new objects" comment="" />
     <list id="d15219b4-8680-48d2-ac50-eb72c20e32e8" name="Revert &quot;new version&quot;" comment="Revert &quot;new version&quot;&#10;&#10;This reverts commit c1ae77ab" />
@@ -140,6 +136,10 @@
       <workItem from="1602647534166" duration="191000" />
       <workItem from="1602648068652" duration="374000" />
       <workItem from="1602648726977" duration="3821000" />
+      <workItem from="1602654395459" duration="119000" />
+      <workItem from="1603427657416" duration="146000" />
+      <workItem from="1604896954404" duration="22000" />
+      <workItem from="1607945075520" duration="629000" />
     </task>
     <servers />
   </component>
@@ -214,10 +214,10 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="760" y="402" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1602587398121" />
-    <state x="322" y="23" key="SettingsEditor" timestamp="1602587160418">
+    <state x="322" y="23" key="SettingsEditor" timestamp="1607946316419">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="322" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1602587160418" />
+    <state x="322" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1607946316419" />
     <state x="489" y="209" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602637875962">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
